@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela Periódica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Tabela Periódica</h1>
+    <p>Explore os 118 elementos químicos</p>
+  </header>
+
+  <main>
+    <input
+      type="text"
+      id="pesquisa"
+      placeholder="Pesquisar elemento, símbolo ou número..."
+      aria-label="Pesquisar elemento químico"
+    >
+
+    <div class="legenda">
+      <span class="nao-metal">Não metais</span>
+      <span class="metal">Metais</span>
+      <span class="gas-nobre">Gases nobres</span>
+      <span class="metaloide">Semimetais</span>
+      <span class="halogenio">Halogênios</span>
+      <span class="lantanideo">Lantanídeos</span>
+    </div>
+
+    <div class="rolagem">
+      <div id="tabela" class="tabela"></div>
+    </div>
+
+    <h2>Lantanídeos e actinídeos</h2>
+    <div class="rolagem">
+      <div id="extras" class="extras"></div>
+    </div>
+
+    <section id="detalhes" class="detalhes">
+      <h2>Escolha um elemento</h2>
+      <p>Clique em qualquer elemento para ver suas informações.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto educativo de Química</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
